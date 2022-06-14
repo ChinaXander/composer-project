@@ -1,0 +1,22 @@
+{
+    "name": "xds/composer-project",
+    "description": "test",
+    "type": "project",
+    "require": {
+        "php": "^7.4",
+        "xds/composer-framework": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "XdsProject\\": "api/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xds",
+            "email": "1905320249@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

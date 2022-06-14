@@ -1,0 +1,70 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "fe32e2e8be63cc320fc3aa2416f6c321",
+    "packages": [
+        {
+            "name": "xds/composer-framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ChinaXander/composer-Framework.git",
+                "reference": "67eac671d2d87187601833bf8bc5d2533cf229ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ChinaXander/composer-Framework/zipball/67eac671d2d87187601833bf8bc5d2533cf229ab",
+                "reference": "67eac671d2d87187601833bf8bc5d2533cf229ab",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": "^7.4"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "XdsFramework\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "xds",
+                    "email": "1905320249@qq.com"
+                }
+            ],
+            "description": "test",
+            "support": {
+                "issues": "https://github.com/ChinaXander/composer-Framework/issues",
+                "source": "https://github.com/ChinaXander/composer-Framework/tree/v1.0.3"
+            },
+            "time": "2022-06-13T10:18:41+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "xds/composer-framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.4"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
